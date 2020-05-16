@@ -1,0 +1,18 @@
+{
+    "name": "ptx-mp3-yx300-uart",
+    "version": "0.0.0",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "additionalFilePaths": []
+}
