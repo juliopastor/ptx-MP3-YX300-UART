@@ -10,8 +10,8 @@
 namespace MP3 {
 
     /**
-         * Inicializa el reproductor MP3 con tx=P0, rx=P1 y 9600 baudios
-         */
+    * Inicializa el reproductor MP3 con tx=P0, rx=P1 y 9600 baudios
+    */
     //% block="Inicializa MP3"
     export function initMp3(): void {
         let command: number[] = [0x7E, 0xFF, 0x06, 0x09, 0x00, 0x00, 0x02, 0xEF];
